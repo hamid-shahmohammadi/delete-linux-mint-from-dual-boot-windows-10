@@ -1,0 +1,1 @@
+# delete-linux-mint-from-dual-boot-windows-10
