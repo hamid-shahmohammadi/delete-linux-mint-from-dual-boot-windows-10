@@ -11,4 +11,13 @@ diskpart
 list disk
 sel disk 0
 list part
+select part 1 ## system
+assign letter=x;
+exit
+x:
+dir
+cd EFI
+dir
+rmdir /S ubuntu
+dir
 ```
